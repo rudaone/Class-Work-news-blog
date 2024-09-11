@@ -1,0 +1,36 @@
+.userblock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 83px;
+  background-color: #2231aa;
+  width: 236px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-left: 1px solid #5360cd;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+}
+
+.username__initials {
+  background-color: #5360cd;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  margin-right: 16px;
+}
+@media only screen and (max-width: 426px) {
+  .username__fullname  {
+    display: none;
+  }
+  .username__initials {
+    margin-right: 0;
+  }
+}

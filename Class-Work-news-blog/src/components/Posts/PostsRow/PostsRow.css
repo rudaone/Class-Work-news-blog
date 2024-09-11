@@ -1,0 +1,25 @@
+.post-three,
+.post-four {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.post-small-column {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+}
+.post__result-wrapper_light,
+.post__result-wrapper_dark {
+    width: 100%;
+    background-color: rgba(243, 243, 243, 1);
+}
+.post__result-wrapper_dark {
+    background-color: #313037;
+}
+.post__vertical {
+    margin: 0 auto;
+}

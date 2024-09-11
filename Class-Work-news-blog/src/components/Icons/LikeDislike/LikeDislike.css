@@ -1,0 +1,11 @@
+svg {
+    cursor: pointer;
+  }
+  
+  svg:hover path {
+    fill: rgb(125, 125, 194);
+  }
+  
+  .down {
+    transform: rotate(180deg);
+  }

@@ -1,0 +1,61 @@
+.button {
+    width: 544px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background: rgba(34, 49, 170, 1);
+    margin: 40px 40px 30px 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.primary {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.secondary {
+    cursor: pointer;
+}
+.third {
+    background-color: whitesmoke;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+.fourth {
+    background-color: grey;
+    color:black;
+    border: none;
+    cursor: pointer;
+}
+.fifth {
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+.sixth {
+    color: red;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.button-default {
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.button-disabled {
+    opacity: 0.5;
+}
+

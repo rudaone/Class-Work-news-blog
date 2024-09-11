@@ -1,0 +1,35 @@
+.input__button-container {
+    display: flex;
+    width: 100%;
+}
+.input-container {
+    width: 85%;
+}
+.input__file {
+    flex-grow: 1;
+}
+.button__file {
+    flex-grow: 1;
+    border: 2px solid white;
+    border-radius: 0px 0px 2px 0px;
+    cursor: pointer;
+    color: rgba(49, 48, 55, 1);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 20px;
+    height: 55.5px;
+}
+.btn-remove {
+    cursor: pointer;
+    color: red;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border: none;
+    outline: none;
+    background: none;
+}

@@ -1,0 +1,85 @@
+.reg__form-wrapper {
+    width: 60%;
+    height: 684px;
+    padding: 40px 0px 0px 0px;
+    border: 1px solid rgba(218, 218, 218, 1);
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input__container {
+    width: 90%;
+    height: 435px;
+    margin: 40px auto;
+    position: relative; 
+    top: 30%; 
+    transform: translateY(-50%);
+    padding: 0;
+}
+.label {
+    color: rgba(255, 255, 255, 1);
+}
+.reg__form-footer {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+.reg__form-footer-inner {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+}
+.reg__form-footer-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(141, 142, 151, 1);
+}
+.reg__form-footer-btn {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(34, 49, 170, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+.sign_up_button-container {
+    width: 95%;
+    display: flex;
+}
+.sign_up-button {
+    width: 95%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    background: rgba(34, 49, 170, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 30px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 414px) {
+    .sign_up-button {
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,37 @@
+.pagination__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pagination_button_light,
+.pagination_button_dark {
+    border: none;
+    outline: none;
+    background: none;
+}
+.currentpage__wrapper {
+    display: flex;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+.second {
+    color: #2231aa;
+    cursor: pointer;
+}
+.second_dark {
+    cursor: pointer;
+}
+.first_light {
+    cursor: pointer;
+}
+.first_dark {
+    color: #8d8e97;
+    cursor: pointer;
+}
+.third_dark {
+    color: #8d8e97;
+    cursor: pointer;
+}
+.third_light {
+    cursor: pointer;
+}

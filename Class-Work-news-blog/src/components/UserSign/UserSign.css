@@ -1,0 +1,8 @@
+.user__container {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #5360cd;
+}

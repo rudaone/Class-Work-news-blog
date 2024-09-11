@@ -1,0 +1,9 @@
+.posts-container {
+    margin: 0 auto;
+    width: 1120px;
+  }
+@media only screen and (max-width: 768px) {
+  .posts-container {
+      width: 100%;
+    }
+}

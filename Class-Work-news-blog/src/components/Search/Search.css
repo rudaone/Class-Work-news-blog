@@ -1,0 +1,25 @@
+.search__container {
+  display: flex;
+  position: relative;
+  height: 100%;
+  flex-grow: 1;
+}
+.header__search {
+    flex-grow: 1;
+    padding: 0 10px;
+    background-color: #2231aa;
+    height: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-right: 1px solid #5360cd;
+    border-left: 1px solid #5360cd;
+  }
+  
+  .header__search::placeholder {
+    color: #fff;
+  }
+  
+  .header__search-active {
+    background-color: #5360cd;
+  }
